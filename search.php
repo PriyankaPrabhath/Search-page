@@ -41,8 +41,8 @@ if (!empty($_GET['q'])) {
 	</form>
 	<?php
 		if(!empty($_GET['q'])){
-			echo 'Name:';//name of movie;
-
+			echo 'Name:'$data[title];//name of movie
+			echo 'Year:'$data[year];
 		}
 	?>
 </body>
